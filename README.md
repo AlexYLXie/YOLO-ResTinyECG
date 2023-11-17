@@ -6,3 +6,6 @@ conda activate ALEX_3
 conda install -c conda-forge cudatoolkit=11.3
 conda install -c anaconda cudnn
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+
+# in PS42 GTX1050Q # CUDA 10.2
+conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch
