@@ -12,3 +12,12 @@ pip install torch==1.7.0+cu101 torchvision==0.8.0+cu101 torchaudio==0.7.0 -f htt
 
 # in PS42 GTX1050Q # CUDA 10.2
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=10.2 -c pytorch
+
+# Check torch GPU:
+nvidia-smi
+nvcc --version
+$ python
+>>> import torch
+>>> torch.cuda.is_available()
+True
+>>> torch.cuda.get_device_name(0)
