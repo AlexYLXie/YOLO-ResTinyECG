@@ -7,6 +7,8 @@ conda install -c conda-forge cudatoolkit=11.3
 conda install -c anaconda cudnn
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 
+#
+https://pytorch.org/get-started/previous-versions/
 # R5 3600 + RTX 2070s # CUDA 10.1
 pip install torch==1.7.0+cu101 torchvision==0.8.1+cu101 torchaudio==0.7.0 -f https://download.pytorch.org/whl/torch_stable.html
 or --> torchvision==0.8.1+cu101 fit torch==1.8.1
